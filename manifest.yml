@@ -1,0 +1,19 @@
+---
+applications:
+  .:
+    name: joinagroup
+    framework:
+      name: php
+      info:
+        mem: 128M
+        description: PHP Application
+        exec: 
+    infra: aws
+    url: ${name}.${target-base}
+    mem: 128M
+    instances: 1
+    services:
+      jag_mysql:
+        type: mysql
+      mysql-6130e:
+        type: mysql

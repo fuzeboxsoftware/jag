@@ -95,7 +95,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to Join A Group!!</h1>
+	<h1>Welcome to Join A Group!!!</h1>
 
 	<div id="body">
 		<p>A quick test to see if AppFog is setup correctly.</p>
